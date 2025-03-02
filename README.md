@@ -10,8 +10,8 @@ Features:
 .Customizable number of hidden layers and neurons per layer
 
 .Support for multiple optimization techniques:
-
-     .SGD
+     
+       .SGD
 
       .Momentum-based gradient descent
 
@@ -34,7 +34,7 @@ Installation:
 Requirements
 
 .Ensure you have Python installed, along with the required dependencies:
-   .pip install torch torchvision matplotlib numpy
+   pip install torch torchvision matplotlib numpy
 Usage:
 
 Training the Model
@@ -82,3 +82,30 @@ File Structure:
 License:
 
 .This project is open-source and can be modified as needed.
+
+
+
+***Best Model Configuration:
+Model Architecture:
+Hidden Layers: 3 layers with 128 neurons each.
+
+Activation Function: ReLU (Rectified Linear Unit).
+
+Output Layer: Softmax (for classification tasks).
+
+Training Configuration:
+Batch Size: 16
+
+Optimizer: RMSprop
+
+Loss Function: Categorical Cross-Entropy (for classification tasks).
+
+Epochs: 5
+
+Performance:
+Training Accuracy: 0.9665 (at Epoch 4)
+
+Validation Accuracy: 0.9678 (at Epoch 4)
+
+Training Loss: 178.5357 (at Epoch 4)
+
