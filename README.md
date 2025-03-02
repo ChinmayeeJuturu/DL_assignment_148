@@ -81,16 +81,16 @@ Output Layer: Softmax (for classification tasks).
 Training Configuration:
 Batch Size: 16
 
-Optimizer: RMSprop
+Optimizer: Nadam
 
 Loss Function: Categorical Cross-Entropy (for classification tasks).
 
 Epochs: 5
 
 Performance:
-Training Accuracy: 0.9665 (at Epoch 4)
+Training Accuracy: 0.9775 (at Epoch 4)
 
-Validation Accuracy: 0.9678 (at Epoch 4)
+Validation Accuracy: 0.9748 (at Epoch 4)
 
 Training Loss: 178.5357 (at Epoch 4)
 
